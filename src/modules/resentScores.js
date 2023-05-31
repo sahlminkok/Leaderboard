@@ -28,7 +28,7 @@ class RecentScores {
     for (let i = 0; i < this.peopleScores.length; i += 1) {
       const yourScore = this.peopleScores[i];
       const li = document.createElement('p');
-      li.className = 'score'
+      li.className = 'score';
       li.innerHTML = `
         <span>${yourScore.name}:</span>
         <span>${yourScore.score}</span>
