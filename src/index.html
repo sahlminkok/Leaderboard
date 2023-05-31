@@ -7,7 +7,29 @@
     <title><%= htmlWebpackPlugin.options.title %></title>
   </head>
   <body>
-    <img id="cabsal" alt="" />
-    <p>Let's Add</p>
+    <header class="header">
+      <h1>Leaderboard</h1>
+    </header>
+    <main class="main">
+      <section class="recent-scores">
+        <h3 class="recent-scores-heading">
+          <span class="recent-scores-heading-main">Recent scores</span>
+          <span class="recent-scores-refresh">Refresh</span>
+        </h3>
+        <ul class="recent-scores-list">
+
+        </ul>
+      </section>
+      
+      <section class="add-score">
+        <form class="form">
+          <h2>Add Your Score</h2>
+          <input type="text" name="name" placeholder="Your name" id="name" required>
+          <input type="number" name="score" placeholder="Your score" id="score" required>
+          <button type="submit" class="submit-button">Submit</button>
+        </form>
+      </section>
+    </main>
+    
   </body>
 </html>
