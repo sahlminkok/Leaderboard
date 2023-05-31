@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.recent-scores {
+  width: 35%;
+}
+
+.recent-scores-heading {
+  display: flex;
+  justify-content: space-between;
+}
+
+.recent-scores-list {
+  border: 2px solid black;
+  list-style: none;
+}
+
+.score {
+  padding: 10px;
+}
+
+.score:nth-of-type(2n + 1) {
+  background-color: #989898;
+  color: #fff;
+}
+
+.addcore {
+  width: 35%;
+}
+
+.form {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.form input {
+  font-size: 1rem;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.submit-button {
+  padding: 10px 15px;
+  align-self: flex-end;
+  border: 1px solid black;
+}
