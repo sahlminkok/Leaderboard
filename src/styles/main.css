@@ -15,7 +15,6 @@ body {
   background-size: cover;
   background-position: top;
   position: relative;
-
   backface-visibility: hidden;
 }
 
