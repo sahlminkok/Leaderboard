@@ -4,10 +4,35 @@
   box-sizing: border-box;
 }
 
+body {
+  background-image:
+    linear-gradient(
+      to right bottom,
+      #7ed56fa2,
+      #28b485a2
+    ),
+    url('../assets/green.jpg');
+  background-size: cover;
+  background-position: top;
+  position: relative;
+  backface-visibility: hidden;
+}
+
+.header {
+  text-align: center;
+  padding-top: 50px;
+  color: #e3b448;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  font-size: 1.5rem;
+  animation: topToBottom 2s ease-out;
+}
+
 .main {
   display: flex;
   justify-content: space-evenly;
-  margin-top: 20vh;
+  height: 95vh;
+  padding-top: 10vh;
 }
 
 .recent-scores {
@@ -17,31 +42,54 @@
 .recent-scores-heading {
   display: flex;
   justify-content: space-between;
+  color: #e3b448;
+  padding: 10px 0;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.recent-scores-refresh {
+  cursor: pointer;
+  border: 0;
+  padding: 10px;
+  background-color: #cbd18f;
+  color: darkcyan;
 }
 
 .recent-scores-list {
-  border: 2px solid black;
+  border: 2px solid darkcyan;
   list-style: none;
+  animation: topToBottom 2s ease-out;
 }
 
 .score {
   padding: 10px;
+  background-color: #cbd18fa2;
+  color: #494949;
 }
 
 .score:nth-of-type(2n + 1) {
-  background-color: #989898;
+  background-color: #e3b448a2;
   color: #fff;
 }
 
-.addcore {
+.add-score {
   width: 35%;
+  padding-top: 10px;
+  animation: topToBottom 2s ease-out;
 }
 
 .form {
-  margin-top: 10px;
   display: flex;
   flex-direction: column;
   width: 100%;
+  padding-top: 10px;
+}
+
+.form h2 {
+  color: #e3b448;
+  text-transform: uppercase;
+  letter-spacing: 5px;
 }
 
 .form input {
@@ -51,7 +99,28 @@
 }
 
 .submit-button {
-  padding: 10px 15px;
-  align-self: flex-end;
-  border: 1px solid black;
+  cursor: pointer;
+  border: 0;
+  padding: 10px;
+  background-color: #cbd18f;
+  color: darkcyan;
+  font-size: 1rem;
+  margin: 10px 0;
+}
+
+@keyframes topToBottom {
+  0% {
+    opacity: 100;
+    transform: translateY(-200px);
+  }
+
+  80% {
+    opacity: 20;
+    transform: translateY(50px);
+  }
+
+  100% {
+    opacity: 0;
+    transform: translateY(0);
+  }
 }
