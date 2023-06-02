@@ -46,7 +46,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: 'Hello, World',
+      title: 'Leaderboard',
       filename: 'index.html',
       template: 'src/index.html',
     }),
