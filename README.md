@@ -16,7 +16,6 @@
 - [📗 Table of Contents](#-table-of-contents)
 - [📖 \[Leaderboard\] ](#-leaderboard-)
   - [🛠 Built With ](#-built-with-)
-    - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
@@ -42,12 +41,6 @@
 - HTML
 - CSS
 - JavaScript
-
-### Tech Stack <a name="tech-stack"></a>
-
-> Webpack to bundle JavaScript
-
-<!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
