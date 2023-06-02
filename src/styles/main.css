@@ -5,11 +5,13 @@
 }
 
 body {
-  background-image: linear-gradient(
-  to right bottom,
-  #7ed56fa2,
-  #28b485a2),
-  url('../assets/green.jpg');
+  background-image:
+    linear-gradient(
+      to right bottom,
+      #7ed56fa2,
+      #28b485a2
+    ),
+    url('../assets/green.jpg');
   background-size: cover;
   background-position: top;
   position: relative;
@@ -66,7 +68,7 @@ body {
 }
 
 .score:nth-of-type(2n + 1) {
-  background-color: #e3b448a2;;
+  background-color: #e3b448a2;
   color: #fff;
 }
 
@@ -110,13 +112,12 @@ body {
     opacity: 100;
     transform: translateY(-200px);
   }
+  
   80% {
     opacity: 20;
     transform: translateY(50px);
   }
-  /* 90% {
-    transform: translateY(20px);
-  } */
+
   100% {
     opacity: 0;
     transform: translateY(0);
