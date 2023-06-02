@@ -2,7 +2,7 @@
 
 <div align="center">
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="dist\cabsal.png" alt="logo" width="140"  height="auto" />
+  <img src="./src/assets/cabsal.png" alt="logo" width="140"  height="auto" />
   <br/>
 
   <h3><b>Learderboard</b></h3>
@@ -45,7 +45,12 @@
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Webpack to bundle JavaScript
+<details>
+  <summary>Bundle</summary>
+  <ul>
+    <li><a href="https://webpack.js.org/">Webpack.js</a></li>
+  </ul>
+</details>
 
 <!-- Features -->
 
