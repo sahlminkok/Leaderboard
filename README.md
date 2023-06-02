@@ -18,7 +18,6 @@
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
-  - [🚀 Live Demo ](#-live-demo-)
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
@@ -36,8 +35,6 @@
 
 # 📖 [Leaderboard] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
-
 **[Learderboard]** The leaderboard website displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external Leaderboard API service.
 
 ## 🛠 Built With <a name="built-with"></a>
@@ -54,19 +51,9 @@
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
-
 - **ES6 modules to write modular JavaScript**
 - **Use callbacks and promises**
 - **Add recent scores**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-- [coming soon](https://github.com/sahlminkok/Leaderboard)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
